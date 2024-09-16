@@ -17,17 +17,29 @@ description:
 1. **Aishwarya Radhakrishnan**  
    North Carolina State University, NC, USA, Summer 2024 and Fall 2024  
 
+   <img src="../assets/img/mentoring/aishwarya.jpg" alt="Aishwarya Radhakrishnan" style="max-width: 500px; width: 100%;">
+
+
 2. **Michelle Jiang**  
    UNC Chapel Hill, NC, USA, Summer 2024  
 
+   <img src="../assets/img/mentoring/michelle.jpg" alt="Michelle Jiang" style="max-width: 500px; width: 100%;">
+
+
 3. **Jonathan Hardwick**  
-   Fayetteville Technical Community College, NC, USA, Summer 2024  
+   Fayetteville Technical Community College, NC, USA, Summer 2024
+
+   <img src="../assets/img/mentoring/jonathan.JPG" alt="Jonathan Hardwick" style="max-width: 500px; width: 100%;">
 
 4. **Susanna Quayle**  
    Fayetteville Technical Community College, NC, USA, Summer 2024  
 
+   <img src="../assets/img/mentoring/susanna.JPG" alt="Susanna Quayle" style="max-width: 500px; width: 100%;">
+
 5. **Praneel Magapu**  
    North Carolina State University, NC, USA, Summer 2024  
+
+   <img src="../assets/img/mentoring/praneel.JPG" alt="Praneel Magapu" style="max-width: 500px; width: 100%;">
 
 6. **Aditya Basarkar**  
    North Carolina State University, NC, USA, Summer 2024  
@@ -35,10 +47,14 @@ description:
 7. **Lavan Aditya**  
    North Carolina State University, NC, USA, Spring 2024 and Summer 2024  
 
+   <img src="../assets/img/mentoring/lavan.JPG" alt="Lavan Aditya" style="max-width: 500px; width: 100%;">
+
+
 8. **[Shiva Gadireddy](https://www.linkedin.com/in/shiva-gadireddy)**  
    North Carolina State University, NC, USA, Summer 2023, Fall 2023, and Spring 2024  
    Rising Junior, Computer Science  
    **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom  
+
    <img src="../assets/img/mentoring/shiva.jpg" alt="Shiva Gadireddy" style="max-width: 500px; width: 100%;">
 
 9. **[Samantha Gonzalez](https://www.linkedin.com/in/samantha-gonzalez-568183209)**  
