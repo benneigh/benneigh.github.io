@@ -1,12 +1,20 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description:
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+- **Instructor in [E115: Introduction to Computing Environments](#)**,  
+  NC State University, Summer 2023
 
-Organize your courses by years, topics, or universities, however you like!
+- **Counselor in [Art, Coding, Action!](#)**,  
+  A Block-Based Programming Summer Camp for Making Games and Art Creations in Snap!, NC State University, July 2022
+
+- **Graduate Teaching Assistant in Automated Learning and Data Analysis**,  
+  NC State University, Spring 2022
+
+- **Graduate Teaching Assistant in Data Structures and Algorithms**,  
+  NC State University, Fall 2021
