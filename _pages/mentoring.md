@@ -72,8 +72,6 @@ description:
 
 1. **Cherri Fennel**  
    Durham Public Schools, NC, USA, Summer 2023  
-   **Position:** YYY
 
 2. **Matthew Lococo**  
    Greene County School, NC, USA, Summer 2023  
-   **Position:** YYY
