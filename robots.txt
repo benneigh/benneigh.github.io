@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://benneigh.github.io/sitemap.xml
+Sitemap: https://benyamintabarsi.com/sitemap.xml
