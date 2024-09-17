@@ -9,18 +9,20 @@ description:
 
 ## Undergraduate Researchers
 
+<figure style="max-width: 500px">
+    <img src="../assets/img/mentoring/su2023-group-photo.jpeg" alt="Yadhira Marcos-Avila, Heidi Reichert, myself, Shiva Gadireddy, and Samantha Gonzalez (from left to right)" style="width: 100%;">
+    <figcaption style="margin-top: 10px; font-style: italic; font-size: 0.8em;">Group Photo from Summer 2023: Yadhira Marcos-Avila, Heidi Reichert, myself, Shiva Gadireddy, and Samantha Gonzalez (from left to right)</figcaption>
+</figure>
 
 1. **Aishwarya Radhakrishnan**  
    North Carolina State University, NC, USA, Summer 2024 and Fall 2024  
 
    <img src="../assets/img/mentoring/aishwarya.jpg" alt="Aishwarya Radhakrishnan" style="max-width: 500px; width: 100%;">
 
-
 2. **Michelle Jiang**  
    UNC Chapel Hill, NC, USA, Summer 2024  
 
    <img src="../assets/img/mentoring/michelle.jpg" alt="Michelle Jiang" style="max-width: 500px; width: 100%;">
-
 
 3. **Jonathan Hardwick**  
    Fayetteville Technical Community College, NC, USA, Summer 2024
@@ -51,11 +53,6 @@ description:
    **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom  
 
    <img src="../assets/img/mentoring/shiva.jpg" alt="Shiva Gadireddy" style="max-width: 500px; width: 100%;">
-
-<figure style="max-width: 500px">
-    <img src="../assets/img/mentoring/su2023-group-photo.jpeg" alt="Yadhira Marcos-Avila, Heidi Reichert, myself, Shiva Gadireddy, and Samantha Gonzalez (from left to right)" style="width: 100%;">
-    <figcaption style="margin-top: 10px; font-style: italic; font-size: 0.8em;">Group Photo from Summer 2023: Yadhira Marcos-Avila, Heidi Reichert, myself, Shiva Gadireddy, and Samantha Gonzalez (from left to right)</figcaption>
-</figure>
 
 9. **[Samantha Gonzalez](https://www.linkedin.com/in/samantha-gonzalez-568183209)**  
    Kean University, NJ, USA, Summer 2023  
