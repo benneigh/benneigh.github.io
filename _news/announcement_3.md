@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-08-02 07:59:00-0400
+date: 2024-08-29 15:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Completed the LearnLab summer school at Carnegie Mellon for the second time—an incredible experience!
+Gave a presentation of MerryQuery, our educational AI-based platform, for an ECI 519 class
