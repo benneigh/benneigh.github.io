@@ -22,11 +22,11 @@ Hello! I am a PhD student in Computer Science at North Carolina State University
 
 I joined the lab in Spring 2022 and am passionate about computer science education, large language models (LLMs), and data mining. Here are some key projects I'm involved in:
 
-- ChatLearn: Creating an app utilizing Retrieval-Augmented Generation that helps patients and healthcare professionals find evidence-based information.
-- MerryQuery: Developing an AI chatbot that provides answers tailored to course materials and instructor preferences.
-- LLMs in Classrooms: Training teachers on how to integrate LLMs to enhance their teaching [(workshop website)](https://go.ncsu.edu/chatgpt-workshop).
-- Developers and LLMs: Studying how developers use LLMs to improve their work.
+- **ChatLearn:** Creating an app utilizing Retrieval-Augmented Generation that helps patients and healthcare professionals find evidence-based information.
+- **MerryQuery:** Developing an AI chatbot that provides answers tailored to course materials and instructor preferences.
+- **LLMs in Classrooms:** Training teachers on how to integrate LLMs to enhance their teaching [(workshop website)](https://go.ncsu.edu/chatgpt-workshop).
+- **Developers and LLMs:** Studying how developers use LLMs to improve their work.
 
 Another focus of my research is enhancing the learning experience of novice programmers by analyzing their coding patterns and creating intelligent support features.
 
-I am always eager to collaborate with other researchers to develop tools that make learning easier and more effective. If you're interested in educational technology and AI, feel free to reach out!
+I am always eager to collaborate with other researchers to develop tools that make learning easier and more effective. If you're interested in educational technology or AI, feel free to reach out!
