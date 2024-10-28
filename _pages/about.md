@@ -18,13 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am a PhD student in Computer Science at North Carolina State University, working in the [Game2Learn Lab](https://eliza.csc.ncsu.edu) under Dr. Tiffany Barnes. 
+Hello! I am a PhD student in Computer Science at North Carolina State University, working under [Dr. Tiffany Barnes](https://eliza.csc.ncsu.edu) and [Dr. DK Xu](https://dongkuanx27.github.io/). 
 
-I joined the lab in Spring 2022 and am passionate about computer science education, large language models (LLMs), and data mining. Here are some key projects I'm involved in:
+I am passionate about using AI for social impact by developing scalable, human-centered technologies that address real-world needs and make educational resources more accessible and effective. Here are some key projects I'm involved in:
 
-- **ChatLearn:** Creating an app utilizing Retrieval-Augmented Generation that helps patients and healthcare professionals find evidence-based information.
-- **MerryQuery:** Developing an AI chatbot that provides answers tailored to course materials and instructor preferences.
-- **LLMs in Classrooms:** Training teachers on how to integrate LLMs to enhance their teaching [(workshop website)](https://go.ncsu.edu/chatgpt-workshop).
+- **ChatLearn:** Creating a benchmark dataset of LLM-generated conversations for parental training in sexual health communication along with evaluation protocol for researchers.
+- **[MerryQuery](https://exploremq.benyamintabarsi.com/):** Developing an AI chatbot that provides answers tailored to course materials and instructor preferences.
+- **[LLMs in Classrooms](https://go.ncsu.edu/chatgpt-workshop):** Training teachers on how to integrate LLMs to enhance their teaching.
 - **Developers and LLMs:** Studying how developers use LLMs to improve their work.
 
 Another focus of my research is enhancing the learning experience of novice programmers by analyzing their coding patterns and creating intelligent support features.
