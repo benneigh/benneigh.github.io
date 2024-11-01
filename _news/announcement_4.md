@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won Best Research Paper Award at IEEE VL/HCC 2024 for [our tool](https://conf.researchr.org/details/vlhcc-2024/vlhcc-2024-research-papers/28/Jigsaw-A-Visual-Tool-for-Decomposing-and-Planning-Programming-Problems) for programming problem decomposition! 
+Won Best Research Paper Award at IEEE VL/HCC 2024 for [our tool](https://ieeexplore.ieee.org/document/10714525) for programming problem decomposition! 
