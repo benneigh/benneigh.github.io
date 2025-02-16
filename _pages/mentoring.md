@@ -17,7 +17,7 @@ description:
 1. **Aryan Santhosh Kumar**  
    North Carolina State University, NC, USA, Fall 2024 and Spring 2025
 
-   <img src="../assets/img/mentoring/ary.jpg" alt="Ary Kumar" style="max-width: 500px; width: 100%;">
+   <img src="../assets/img/mentoring/ary.png" alt="Ary Kumar" style="max-width: 500px; width: 100%;">
 
 2. **Susanna Quayle**  
    Fayetteville Technical Community College, NC, USA, Summer 2024 and Spring 2025
