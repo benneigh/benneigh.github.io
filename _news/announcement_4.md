@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won Best Research Paper Award at IEEE VL/HCC 2024 for [our tool](https://ieeexplore.ieee.org/document/10714525) for programming problem decomposition! 
+Won Best Research Paper Award at IEEE VL/HCC 2024 for [our tool](https://ieeexplore.ieee.org/document/10714525) for programming problem decomposition!

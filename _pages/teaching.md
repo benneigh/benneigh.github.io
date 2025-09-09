@@ -12,7 +12,7 @@ nav_order: 3
 
 - **Counselor in Art, Coding, Action!**, <br/>
   A Block-Based Programming Summer Camp for Making Games and Art Creations in Snap<i>!</i>
-, NC State University, July 2022
+  , NC State University, July 2022
 
 - **Graduate Teaching Assistant in Automated Learning and Data Analysis (CSC 522)**,  
   NC State University, Spring 2022

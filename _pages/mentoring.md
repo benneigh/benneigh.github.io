@@ -4,7 +4,7 @@ permalink: /mentoring/
 title: Mentoring
 nav: true
 nav_order: 4
-description: 
+description:
 ---
 
 ## Undergraduate Researchers
@@ -25,12 +25,12 @@ description:
    <img src="../assets/img/mentoring/susanna.jpg" alt="Susanna Quayle" style="max-width: 500px; width: 100%;">
 
 3. **Aishwarya Radhakrishnan**  
-   North Carolina State University, NC, USA, Summer 2024 and Fall 2024  
+   North Carolina State University, NC, USA, Summer 2024 and Fall 2024
 
    <img src="../assets/img/mentoring/aishwarya.jpg" alt="Aishwarya Radhakrishnan" style="max-width: 500px; width: 100%;">
 
 4. **Michelle Jiang**  
-   UNC Chapel Hill, NC, USA, Summer 2024  
+   UNC Chapel Hill, NC, USA, Summer 2024
 
    <img src="../assets/img/mentoring/michelle.jpg" alt="Michelle Jiang" style="max-width: 500px; width: 100%;">
 
@@ -40,34 +40,34 @@ description:
    <img src="../assets/img/mentoring/jonathan.JPG" alt="Jonathan Hardwick" style="max-width: 500px; width: 100%;">
 
 6. **Praneel Magapu**  
-   North Carolina State University, NC, USA, Summer 2024  
+   North Carolina State University, NC, USA, Summer 2024
 
    <img src="../assets/img/mentoring/praneel.jpg" alt="Praneel Magapu" style="max-width: 500px; width: 100%;">
 
 7. **Aditya Basarkar**  
-   North Carolina State University, NC, USA, Summer 2024  
+   North Carolina State University, NC, USA, Summer 2024
 
 8. **Lavan Aditya**  
-   North Carolina State University, NC, USA, Spring 2024 and Summer 2024  
+   North Carolina State University, NC, USA, Spring 2024 and Summer 2024
 
    <img src="../assets/img/mentoring/lavan.jpg" alt="Lavan Aditya" style="max-width: 500px; width: 100%;">
 
 9. **[Shiva Gadireddy](https://www.linkedin.com/in/shiva-gadireddy)**  
    North Carolina State University, NC, USA, Summer 2023, Fall 2023, and Spring 2024  
    Rising Junior, Computer Science  
-   **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom  
+   **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom
 
    <img src="../assets/img/mentoring/shiva.jpg" alt="Shiva Gadireddy" style="max-width: 500px; width: 100%;">
 
 10. **[Samantha Gonzalez](https://www.linkedin.com/in/samantha-gonzalez-568183209)**  
-   Kean University, NJ, USA, Summer 2023  
-   Rising Junior, Computer Science  
-   **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom  
+    Kean University, NJ, USA, Summer 2023  
+    Rising Junior, Computer Science  
+    **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom
 
 11. **[Yadhira Marcos-Avila](https://www.linkedin.com/in/yadhira-marcos)**  
     UNC Charlotte, NC, USA, Summer 2023  
     Rising Junior, Computer Science  
-    **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom  
+    **Project:** Systematic Literature Review on the Use of Large Language Models in Education and Teachers' Workshop on Integrating LLMs into Classroom
 
 12. **[Rachel Qualls](https://www.linkedin.com/in/rachel-qualls/)**  
     University of Alabama, AL, USA, Summer 2022  
@@ -85,11 +85,10 @@ description:
     Rising Junior, Computer Science  
     **Project:** Participatory Design on a Blocked-Based Programming Learning Management System (SnapClass)
 
-
 ## K-12 Teachers
 
 1. **Cherri Fennel**  
-   Durham Public Schools, NC, USA, Summer 2023  
+   Durham Public Schools, NC, USA, Summer 2023
 
 2. **Matthew Lococo**  
-   Greene County School, NC, USA, Summer 2023  
+   Greene County School, NC, USA, Summer 2023
