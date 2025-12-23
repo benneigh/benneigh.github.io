@@ -38,12 +38,12 @@ GEM
     feedjira (3.2.1)
       loofah (>= 2.3.1)
       sax-machine (>= 1.0)
-    ffi (1.17.2-aarch64-linux)
-    ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     google-protobuf (3.23.4-aarch64-linux)
     google-protobuf (3.23.4-arm64-darwin)
+    google-protobuf (3.23.4-x86_64-linux)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -122,6 +122,7 @@ GEM
     latex-decode (0.4.0)
     libv8 (8.4.255.0.1)
     libv8 (8.4.255.0.1-universal-darwin)
+    libv8 (8.4.255.0.1-x86_64-linux)
     liquid (4.0.4)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -139,6 +140,8 @@ GEM
     nokogiri (1.13.10-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.13.10-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -166,6 +169,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-25
+  x86_64-linux
 
 DEPENDENCIES
   classifier-reborn
