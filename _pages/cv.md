@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-description:
+description: "Curriculum vitae (CV) of Benyamin Tabarsi, PhD student in Computer Science at NC State University."
 ---
 
 If the embedded PDF below does not load, you can download it <a href="https://benneigh.github.io/assets/pdf/Benyamin Tabarsi - CV.pdf" style="color:#64B2CB">here</a>.

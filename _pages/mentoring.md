@@ -4,7 +4,7 @@ permalink: /mentoring/
 title: Mentoring
 nav: true
 nav_order: 4
-description:
+description: "Mentoring of undergraduate researchers and teachers in computing education and GenAI projects."
 ---
 
 ## Undergraduate Researchers

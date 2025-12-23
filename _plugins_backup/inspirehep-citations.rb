@@ -1,4 +1,5 @@
-require "active_support/all"
+require 'active_support'
+require 'active_support/core_ext'
 require 'net/http'
 require 'json'
 require 'uri'

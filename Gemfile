@@ -27,3 +27,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem "i18n", "~> 1.14"

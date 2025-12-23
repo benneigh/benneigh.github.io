@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description:
+description: "Teaching experience and courses taught by Benyamin Tabarsi."
 nav: true
 nav_order: 3
 ---
