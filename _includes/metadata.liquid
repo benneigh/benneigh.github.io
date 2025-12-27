@@ -256,64 +256,64 @@
     }
   </script>
   {% if page.url == '/' %}
-  <!-- Enhanced Person Schema for Homepage (Knowledge Panel) -->
-  <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "@id": "{{ site.url }}/#person",
-        "name": "{{ author_name }}",
-        "givenName": "{{ site.first_name }}",
-        "familyName": "{{ site.last_name }}",
-        "url": "{{ site.url }}",
-        "email": "{{ site.email }}",
-        {% if site.og_image %}
-        "image": {
-            "@type": "ImageObject",
-            "url": "{{ site.og_image | absolute_url }}",
-            "caption": "{{ author_name }}"
-        },
-        {% endif %}
-        "jobTitle": "PhD Student in Computer Science",
-        "description": "{{ site.description }}",
-        "worksFor": {
-            "@type": "EducationalOrganization",
-            "name": "North Carolina State University",
-            "url": "https://www.ncsu.edu/",
-            "sameAs": "https://en.wikipedia.org/wiki/North_Carolina_State_University"
-        },
-        "affiliation": {
-            "@type": "EducationalOrganization",
-            "name": "North Carolina State University"
-        },
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks }},
-        {% endif %}
-        "knowsAbout": [
-            "Artificial Intelligence",
-            "Computing Education",
-            "Generative AI",
-            "Educational Technology",
-            "Machine Learning",
-            "Natural Language Processing",
-            "Human-Computer Interaction"
-        ],
-        "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Researcher",
-            "occupationLocation": {
-                "@type": "City",
-                "name": "Raleigh",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Raleigh",
-                    "addressRegion": "NC",
-                    "addressCountry": "US"
-                }
-            }
-        },
-        "publishingPrinciples": "{{ site.url }}/publications/"
-    }
-  </script>
+    <!-- Enhanced Person Schema for Homepage (Knowledge Panel) -->
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": "{{ site.url }}/#person",
+          "name": "{{ author_name }}",
+          "givenName": "{{ site.first_name }}",
+          "familyName": "{{ site.last_name }}",
+          "url": "{{ site.url }}",
+          "email": "{{ site.email }}",
+          {% if site.og_image %}
+          "image": {
+              "@type": "ImageObject",
+              "url": "{{ site.og_image | absolute_url }}",
+              "caption": "{{ author_name }}"
+          },
+          {% endif %}
+          "jobTitle": "PhD Student in Computer Science",
+          "description": "{{ site.description }}",
+          "worksFor": {
+              "@type": "EducationalOrganization",
+              "name": "North Carolina State University",
+              "url": "https://www.ncsu.edu/",
+              "sameAs": "https://en.wikipedia.org/wiki/North_Carolina_State_University"
+          },
+          "affiliation": {
+              "@type": "EducationalOrganization",
+              "name": "North Carolina State University"
+          },
+          {% if sameaslinks != blank %}
+          "sameAs": {{ sameaslinks }},
+          {% endif %}
+          "knowsAbout": [
+              "Artificial Intelligence",
+              "Computing Education",
+              "Generative AI",
+              "Educational Technology",
+              "Machine Learning",
+              "Natural Language Processing",
+              "Human-Computer Interaction"
+          ],
+          "hasOccupation": {
+              "@type": "Occupation",
+              "name": "Researcher",
+              "occupationLocation": {
+                  "@type": "City",
+                  "name": "Raleigh",
+                  "address": {
+                      "@type": "PostalAddress",
+                      "addressLocality": "Raleigh",
+                      "addressRegion": "NC",
+                      "addressCountry": "US"
+                  }
+              }
+          },
+          "publishingPrinciples": "{{ site.url }}/publications/"
+      }
+    </script>
   {% endif %}
 {% endif %}
