@@ -1,0 +1,71 @@
+---
+layout: page
+---
+
+<div class="publications">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="title">{{ page.entry.title }}</div>
+
+      {% if page.entry.author_array %}
+        <div class="author">
+          {% for author in page.entry.author_array %}
+            {{ author.first }} {{ author.last }}{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+      {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+      {% if page.entry.type == 'article' and page.entry.journal %}
+        {% capture entrytype %}<em>{{ page.entry.journal }}</em>{% endcapture %}
+      {% elsif proceedings contains page.entry.type and page.entry.booktitle %}
+        {% capture entrytype %}<em>In {{ page.entry.booktitle }}</em>{% endcapture %}
+      {% elsif thesis contains page.entry.type and page.entry.school %}
+        {% capture entrytype %}<em>{{ page.entry.school }}</em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}{% endcapture %}
+      {% endif %}
+
+      <div class="periodical">
+        {{ entrytype }}{% if page.entry.year %}, {{ page.entry.year }}{% endif %}
+      </div>
+
+      <div class="links">
+        {% if page.entry.pdf %}
+          {% if page.entry.pdf contains '://' %}
+            <a href="{{ page.entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {% else %}
+            <a href="{{ page.entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {% endif %}
+        {% endif %}
+
+        {% if page.entry.html %}
+          {% if page.entry.html contains '://' %}
+            <a href="{{ page.entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {% else %}
+            <a href="{{ page.entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {% endif %}
+        {% endif %}
+
+        {% if page.entry.doi %}
+          <a href="https://doi.org/{{ page.entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+        {% endif %}
+
+        <a href="{{ '/publications/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Back</a>
+      </div>
+
+      {% if page.entry.abstract %}
+        <div class="abstract">
+          <p>{{ page.entry.abstract }}</p>
+        </div>
+      {% endif %}
+
+      {% if page.entry.bibtex %}
+        <div class="bibtex">
+          <pre>{{ page.entry.bibtex }}</pre>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

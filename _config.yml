@@ -307,8 +307,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tabarsi]
+  first_name: [Benyamin]
 
   style: apa
   locale: en
@@ -325,7 +325,7 @@ scholar:
   join_strings: true
 
   details_dir: bibliography
-  details_link: Details
+  details_link:
 
   query: "@*"
   group_by: year

@@ -1,78 +1,5 @@
 ---
 ---
-<!-- Google Scholar Meta Tags -->
-<!-- https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="{{ entry.title }}">
-{% for author in entry.author_array %}
-  {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-  <meta name="citation_author" content="{{ author_last_name }}, {{ author.first }}">
-{% endfor %}
-{% if entry.year %}
-  <meta name="citation_publication_date" content="{{ entry.year }}">
-{% endif %}
-{% if entry.journal %}
-  <meta name="citation_journal_title" content="{{ entry.journal }}">
-{% elsif entry.booktitle %}
-  <meta name="citation_conference_title" content="{{ entry.booktitle }}">
-{% endif %}
-{% if entry.volume %}
-  <meta name="citation_volume" content="{{ entry.volume }}">
-{% endif %}
-{% if entry.number %}
-  <meta name="citation_issue" content="{{ entry.number }}">
-{% endif %}
-{% if entry.pages %}
-  {% assign page_parts = entry.pages | split: '--' %}
-  {% if page_parts[0] %}
-    <meta name="citation_firstpage" content="{{ page_parts[0] }}">
-  {% endif %}
-  {% if page_parts[1] %}
-    <meta name="citation_lastpage" content="{{ page_parts[1] }}">
-  {% endif %}
-{% endif %}
-{% if entry.doi %}
-  <meta name="citation_doi" content="{{ entry.doi }}">
-{% endif %}
-{% if entry.issn %}
-  <meta name="citation_issn" content="{{ entry.issn }}">
-{% endif %}
-{% if entry.isbn %}
-  <meta name="citation_isbn" content="{{ entry.isbn }}">
-{% endif %}
-{% if entry.publisher %}
-  <meta name="citation_publisher" content="{{ entry.publisher }}">
-{% endif %}
-{% if entry.pdf %}
-  {% if entry.pdf contains '://' %}
-    <meta name="citation_pdf_url" content="{{ entry.pdf }}">
-  {% else %}
-    <meta name="citation_pdf_url" content="{{ entry.pdf | prepend: '/assets/pdf/' | absolute_url | uri_escape }}">
-  {% endif %}
-{% endif %}
-{% if entry.html %}
-  {% if entry.html contains '://' %}
-    <meta name="citation_abstract_html_url" content="{{ entry.html }}">
-  {% else %}
-    <meta name="citation_abstract_html_url" content="{{ entry.html | prepend: '/assets/html/' | absolute_url }}">
-  {% endif %}
-{% endif %}
-{% if entry.arxiv %}
-  <meta name="citation_arxiv_id" content="{{ entry.arxiv }}">
-{% endif %}
-{% if entry.pmid %}
-  <meta name="citation_pmid" content="{{ entry.pmid }}">
-{% endif %}
-{% if entry.abstract %}
-  <meta name="citation_abstract" content="{{ entry.abstract | strip_html | strip_newlines }}">
-{% endif %}
-{% if entry.keywords %}
-  <meta name="citation_keywords" content="{{ entry.keywords }}">
-{% endif %}
-{% if entry.language %}
-  <meta name="citation_language" content="{{ entry.language }}">
-{% else %}
-  <meta name="citation_language" content="en">
-{% endif %}
 
 <div class="row">
   {% if site.enable_publication_thumbnails %}
@@ -258,6 +185,9 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if details %}
+        <a href="{{ details }}" class="btn btn-sm z-depth-0" role="button">Details</a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
