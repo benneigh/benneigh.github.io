@@ -1,71 +1,71 @@
 {%- assign e = include.entry | default: page.entry -%}
 {%- if e -%}
-<!-- Google Scholar Meta Tags (for per-paper pages) -->
-<meta name="citation_title" content="{{ e.title | strip_html }}">
-{%- if e.author_array -%}
-  {%- for author in e.author_array -%}
-    {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-    <meta name="citation_author" content="{{ author_last_name }}, {{ author.first }}">
-  {%- endfor -%}
-{%- endif -%}
-{%- if e.year -%}
-<meta name="citation_publication_date" content="{{ e.year }}">
-{%- endif -%}
-{%- if e.journal -%}
-<meta name="citation_journal_title" content="{{ e.journal }}">
-{%- elsif e.booktitle -%}
-<meta name="citation_conference_title" content="{{ e.booktitle }}">
-{%- endif -%}
-{%- if e.volume -%}
-<meta name="citation_volume" content="{{ e.volume }}">
-{%- endif -%}
-{%- if e.number -%}
-<meta name="citation_issue" content="{{ e.number }}">
-{%- endif -%}
-{%- if e.pages -%}
-  {%- assign page_parts = e.pages | split: '--' -%}
-  {%- if page_parts[0] -%}
-<meta name="citation_firstpage" content="{{ page_parts[0] }}">
+  <!-- Google Scholar Meta Tags (for per-paper pages) -->
+  <meta name="citation_title" content="{{ e.title | strip_html }}">
+  {%- if e.author_array -%}
+    {%- for author in e.author_array -%}
+      {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+      <meta name="citation_author" content="{{ author_last_name }}, {{ author.first }}">
+    {%- endfor -%}
   {%- endif -%}
-  {%- if page_parts[1] -%}
-<meta name="citation_lastpage" content="{{ page_parts[1] }}">
+  {%- if e.year -%}
+    <meta name="citation_publication_date" content="{{ e.year }}">
   {%- endif -%}
-{%- endif -%}
-{%- if e.doi -%}
-<meta name="citation_doi" content="{{ e.doi }}">
-{%- endif -%}
-{%- if e.issn -%}
-<meta name="citation_issn" content="{{ e.issn }}">
-{%- endif -%}
-{%- if e.isbn -%}
-<meta name="citation_isbn" content="{{ e.isbn }}">
-{%- endif -%}
-{%- if e.publisher -%}
-<meta name="citation_publisher" content="{{ e.publisher }}">
-{%- endif -%}
-{%- if e.pdf -%}
-  {%- if e.pdf contains '://' -%}
-<meta name="citation_pdf_url" content="{{ e.pdf }}">
+  {%- if e.journal -%}
+    <meta name="citation_journal_title" content="{{ e.journal }}">
+  {%- elsif e.booktitle -%}
+    <meta name="citation_conference_title" content="{{ e.booktitle }}">
+  {%- endif -%}
+  {%- if e.volume -%}
+    <meta name="citation_volume" content="{{ e.volume }}">
+  {%- endif -%}
+  {%- if e.number -%}
+    <meta name="citation_issue" content="{{ e.number }}">
+  {%- endif -%}
+  {%- if e.pages -%}
+    {%- assign page_parts = e.pages | split: '--' -%}
+    {%- if page_parts[0] -%}
+      <meta name="citation_firstpage" content="{{ page_parts[0] }}">
+    {%- endif -%}
+    {%- if page_parts[1] -%}
+      <meta name="citation_lastpage" content="{{ page_parts[1] }}">
+    {%- endif -%}
+  {%- endif -%}
+  {%- if e.doi -%}
+    <meta name="citation_doi" content="{{ e.doi }}">
+  {%- endif -%}
+  {%- if e.issn -%}
+    <meta name="citation_issn" content="{{ e.issn }}">
+  {%- endif -%}
+  {%- if e.isbn -%}
+    <meta name="citation_isbn" content="{{ e.isbn }}">
+  {%- endif -%}
+  {%- if e.publisher -%}
+    <meta name="citation_publisher" content="{{ e.publisher }}">
+  {%- endif -%}
+  {%- if e.pdf -%}
+    {%- if e.pdf contains '://' -%}
+      <meta name="citation_pdf_url" content="{{ e.pdf }}">
+    {%- else -%}
+      <meta name="citation_pdf_url" content="{{ e.pdf | prepend: '/assets/pdf/' | absolute_url | uri_escape }}">
+    {%- endif -%}
+  {%- endif -%}
+  <meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">
+  {%- if e.arxiv -%}
+    <meta name="citation_arxiv_id" content="{{ e.arxiv }}">
+  {%- endif -%}
+  {%- if e.pmid -%}
+    <meta name="citation_pmid" content="{{ e.pmid }}">
+  {%- endif -%}
+  {%- if e.abstract -%}
+    <meta name="citation_abstract" content="{{ e.abstract | strip_html | strip_newlines }}">
+  {%- endif -%}
+  {%- if e.keywords -%}
+    <meta name="citation_keywords" content="{{ e.keywords }}">
+  {%- endif -%}
+  {%- if e.language -%}
+    <meta name="citation_language" content="{{ e.language }}">
   {%- else -%}
-<meta name="citation_pdf_url" content="{{ e.pdf | prepend: '/assets/pdf/' | absolute_url | uri_escape }}">
+    <meta name="citation_language" content="en">
   {%- endif -%}
-{%- endif -%}
-<meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">
-{%- if e.arxiv -%}
-<meta name="citation_arxiv_id" content="{{ e.arxiv }}">
-{%- endif -%}
-{%- if e.pmid -%}
-<meta name="citation_pmid" content="{{ e.pmid }}">
-{%- endif -%}
-{%- if e.abstract -%}
-<meta name="citation_abstract" content="{{ e.abstract | strip_html | strip_newlines }}">
-{%- endif -%}
-{%- if e.keywords -%}
-<meta name="citation_keywords" content="{{ e.keywords }}">
-{%- endif -%}
-{%- if e.language -%}
-<meta name="citation_language" content="{{ e.language }}">
-{%- else -%}
-<meta name="citation_language" content="en">
-{%- endif -%}
 {%- endif -%}
