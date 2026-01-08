@@ -5,8 +5,6 @@ layout: page
 <div class="publications">
   <div class="row">
     <div class="col-sm-12">
-      <div class="title">{{ page.entry.title }}</div>
-
       {% if page.entry.author_array %}
       <div class="author">
         {% for author in page.entry.author_array %} {{ author.first }} {{ author.last }}{% unless forloop.last %},{% endunless %} {% endfor %}
