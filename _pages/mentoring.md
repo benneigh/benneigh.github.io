@@ -15,6 +15,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
 </figure>
 
 ### MerryBench
+
 1. **Jayani Sivakumar**  
    North Carolina State University, NC, USA, Summer 2025
 
@@ -23,6 +24,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
    <br><img src="../assets/img/mentoring/susanna.jpg" alt="Susanna Quayle" style="max-width: 500px; width: 100%; margin-top: 10px;">
 
 ### MerryQuery
+
 1. **Daniel Briceno**  
    North Carolina State University, NC, USA, Spring 2026
 
@@ -42,6 +44,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
    <br><img src="../assets/img/mentoring/lavan.jpg" alt="Lavan Aditya" style="max-width: 500px; width: 100%; margin-top: 10px;">
 
 ### SafeTalkCoach
+
 1. **Ary Kumar (Aryan Santhosh Kumar)**  
    North Carolina State University, NC, USA, Fall 2024 and Spring 2025
    <br><img src="../assets/img/mentoring/ary.png" alt="Ary Kumar" style="max-width: 500px; width: 100%; margin-top: 10px;">
@@ -58,6 +61,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
    Fayetteville Technical Community College, NC, USA, Summer 2024
 
 ### Systematic Literature Review on LLMs and Computing Education
+
 1. **[Shiva Gadireddy](https://www.linkedin.com/in/shiva-gadireddy)**  
    North Carolina State University, NC, USA, Summer 2023, Fall 2023, and Spring 2024  
    <br><img src="../assets/img/mentoring/shiva.jpg" alt="Shiva Gadireddy" style="max-width: 500px; width: 100%; margin-top: 10px;">
@@ -72,11 +76,13 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
    UNC Charlotte, NC, USA, Summer 2023
 
 ### Detectors for Identifying Novices' Struggle during Programming
+
 1. **[Rachel Qualls](https://www.linkedin.com/in/rachel-qualls/)**  
    University of Alabama, AL, USA, Summer 2022  
    <br><img src="../assets/img/mentoring/rachel.png" alt="Rachel Qualls" style="max-width: 500px; width: 100%; margin-top: 10px;">
 
 ### Participatory Design on a Block-Based Programming Learning Management System (SnapClass)
+
 1. **[Maggie Lin](https://www.linkedin.com/in/maggie-l-507104233/)**  
    North Carolina State University, NC, USA, Summer 2022
 
@@ -88,6 +94,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
 ## Master's Students
 
 ### MerryQuery
+
 1. **Shreyas Visweshwaran**  
    North Carolina State University, NC, USA, Fall 2025
 
@@ -102,6 +109,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
 ## Teacher Research Interns
 
 ### Integrating LLMs into K-12 Classrooms
+
 1. **Cherri Fennel**  
    Durham Public Schools, NC, USA, Summer 2023
 

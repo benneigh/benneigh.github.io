@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-- **Preparing the Professoriate (PTP) Fellow** 
+- **Preparing the Professoriate (PTP) Fellow**
   NC State University, 2025 – 2026
 
 - **Mentored Teaching Fellow**
