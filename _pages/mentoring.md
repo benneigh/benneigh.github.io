@@ -15,6 +15,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
 </figure>
 
 {% for project_group in site.data.mentees.undergraduates %}
+
 ### {{ project_group.project }}
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
@@ -46,6 +47,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
 ## Master's Students
 
 {% for project_group in site.data.mentees.masters %}
+
 ### {{ project_group.project }}
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
@@ -77,6 +79,7 @@ description: "Mentoring of undergraduate and graduate researchers and teachers i
 ## Teacher Research Interns
 
 {% for project_group in site.data.mentees.teachers %}
+
 ### {{ project_group.project }}
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
