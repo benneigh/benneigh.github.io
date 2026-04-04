@@ -18,15 +18,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am a PhD student in Computer Science at North Carolina State University, working under [Dr. Tiffany Barnes](https://eliza.csc.ncsu.edu) and [Dr. DK Xu](https://dongkuanx27.github.io/).
+Hello! I am a PhD student in Computer Science at North Carolina State University, working under [Dr. Tiffany Barnes](https://eliza.csc.ncsu.edu) and [Dr. DK Xu](https://dongkuanx27.github.io/). My research connects artificial intelligence and computing education, with emphasis on human-AI co-intelligence (how students, developers, and educators collaborate with AI systems) and designing trustworthy, adaptive, and pedagogically grounded tools that enhance these collaborations.
 
-I am passionate about using AI for social impact by developing scalable, human-centered technologies that address real-world needs and make educational resources more accessible and effective. Here are some key projects I'm involved in:
+Here are my current research projects:
 
-- **ChatLearn:** Creating a benchmark dataset of LLM-generated conversations for parental training in sexual health communication along with evaluation protocol for researchers.
-- **[MerryQuery](https://exploremq.benyamintabarsi.com/):** Developing an AI chatbot that provides answers tailored to course materials and instructor preferences.
-- **[LLMs in Classrooms](https://go.ncsu.edu/chatgpt-workshop):** Training teachers on how to integrate LLMs to enhance their teaching.
-- **Developers and LLMs:** Studying how developers use LLMs to improve their work.
+- **[MerryQuery](https://exploremq.benyamintabarsi.com/):** A GenAI-powered assistant that provides personalized, reliable guidance to students and educators by adapting to course materials and the preferences of students and instructors.
+- **ParenTeenTalk:** Developing a framework for using GenAI to produce parent-teen conversations and expert feedback to be used for parental training in sexual health communication.
+- **[LLMs in Classrooms](https://go.ncsu.edu/chatgpt-workshop):** Training K-12 educators on integrating generative AI tools into their teaching practice.
+- **Developers and LLMs:** Investigating how developers use LLMs in their workflow and the implications for software development practices.
 
-Another focus of my research is enhancing the learning experience of novice programmers by analyzing their coding patterns and creating intelligent support features.
+I also focus on enhancing the learning experience of novice programmers by analyzing coding patterns, identifying struggles, and developing intelligent support tools through educational data mining.
 
 I am always eager to collaborate with other researchers to develop tools that make learning easier and more effective. If you're interested in educational technology or AI, feel free to reach out!

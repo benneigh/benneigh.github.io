@@ -7,10 +7,19 @@ nav: true
 nav_order: 3
 ---
 
+- **Preparing the Professoriate (PTP) Fellow** 
+  NC State University, 2025 – 2026
+
+- **Mentored Teaching Fellow**
+  NC State University, Spring 2026
+
+- **Instructor and Mentor in How to Integrate LLMs into K-12 Classrooms (Workshop Series)**,  
+  NC State University, Jun 2023 – Jun 2024
+
 - **Instructor in [E115: Introduction to Computing Environments](https://wolfware.ncsu.edu/courses/details/?sis_id=SIS:2023:6:10W:E:115:050)**,  
   NC State University, Summer 2023
 
-- **Counselor in Art, Coding, Action!**, <br/>
+- **Teacher and Curriculum Consultant in Art, Coding, Action!**, <br/>
   A Block-Based Programming Summer Camp for Making Games and Art Creations in Snap<i>!</i>
   , NC State University, July 2022
 
