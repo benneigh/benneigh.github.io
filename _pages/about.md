@@ -23,7 +23,7 @@ Hello! I am a PhD student in Computer Science at North Carolina State University
 Here are my current research projects:
 
 - **[MerryQuery](https://exploremq.benyamintabarsi.com/):** A GenAI-powered assistant that provides personalized, reliable guidance to students and educators by adapting to course materials and the preferences of students and instructors.
-- **ParenTeenTalk:** Developing a framework for using GenAI to produce parent-teen conversations and expert feedback to be used for parental training in sexual health communication.
+- **SafeTalkCoach:** Developing a framework for using GenAI to produce parent-teen conversations and expert feedback to be used for parental training in sexual health communication.
 - **[LLMs in Classrooms](https://go.ncsu.edu/chatgpt-workshop):** Training K-12 educators on integrating generative AI tools into their teaching practice.
 - **Developers and LLMs:** Investigating how developers use LLMs in their workflow and the implications for software development practices.
 
