@@ -183,6 +183,32 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Mentoring
+
+.mentee-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-code-bg-color);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  i {
+    font-size: 2.5rem;
+    color: var(--global-text-color-light);
+  }
+}
+
 // Citation
 
 .citation,
