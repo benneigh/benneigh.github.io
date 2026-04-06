@@ -10,14 +10,14 @@ description: "Research mentoring of undergraduate and teacher interns in computi
 {% assign total_mentees = site.data.mentees.undergraduates.size | plus: site.data.mentees.teachers.size %}
 {% assign all_projects = "" %}
 {% for s in site.data.mentees.undergraduates %}
-  {% for p in s.projects %}
-    {% assign all_projects = all_projects | append: p | append: "||" %}
-  {% endfor %}
+{% for p in s.projects %}
+{% assign all_projects = all_projects | append: p | append: "||" %}
+{% endfor %}
 {% endfor %}
 {% for s in site.data.mentees.teachers %}
-  {% for p in s.projects %}
-    {% assign all_projects = all_projects | append: p | append: "||" %}
-  {% endfor %}
+{% for p in s.projects %}
+{% assign all_projects = all_projects | append: p | append: "||" %}
+{% endfor %}
 {% endfor %}
 {% assign projects_arr = all_projects | split: "||" | uniq %}
 {% assign total_projects = projects_arr.size %}
@@ -27,7 +27,6 @@ description: "Research mentoring of undergraduate and teacher interns in computi
 <p class="mentoring-stats">
   {{ total_mentees }} research mentees &middot; {{ total_projects }} projects
 </p>
-
 
 <figure class="text-center mb-5" style="max-width: 600px; margin: 0 auto;">
   <img
@@ -40,7 +39,6 @@ description: "Research mentoring of undergraduate and teacher interns in computi
     Gonzalez (from left to right)
   </figcaption>
 </figure>
-
 
 ## Undergraduate Researcher Interns
 
