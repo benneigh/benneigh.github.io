@@ -185,11 +185,44 @@ ul.task-list input[type="checkbox"] {
 
 // Mentoring
 
+.mentoring-stats {
+  text-align: center;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 2rem;
+}
+
+.mentoring h2 {
+  margin-bottom: 1.5rem;
+}
+
+.mentoring-divider {
+  width: 60px;
+  height: 3px;
+  background-color: var(--global-theme-color);
+  margin: 1rem auto 2.5rem;
+  border-radius: 2px;
+  opacity: 0.35;
+}
+
+.mentee-card {
+  border: none;
+  border-radius: 12px;
+  background-color: var(--global-card-bg-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+}
+
 .mentee-avatar {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  border: 1px solid var(--global-divider-color);
+  width: 100%;
+  aspect-ratio: 1;
   background-color: var(--global-code-bg-color);
   overflow: hidden;
   display: flex;
@@ -204,9 +237,45 @@ ul.task-list input[type="checkbox"] {
   }
 
   i {
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--global-text-color-light);
   }
+}
+
+.mentee-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.mentee-project {
+  font-size: 0.78rem;
+  color: var(--global-theme-color);
+  font-weight: 500;
+}
+
+.mentee-institution {
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.mentee-term-badge {
+  display: inline-block;
+  background-color: var(--global-code-bg-color);
+  color: var(--global-text-color-light);
+  padding: 0.2rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 500;
 }
 
 // Citation

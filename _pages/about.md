@@ -18,15 +18,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am a PhD student in Computer Science at North Carolina State University, working under [Dr. Tiffany Barnes](https://eliza.csc.ncsu.edu) and [Dr. DK Xu](https://dongkuanx27.github.io/). My research connects artificial intelligence and computing education, with emphasis on human-AI co-intelligence (how students, developers, and educators collaborate with AI systems) and designing trustworthy, adaptive, and pedagogically grounded tools that enhance these collaborations.
+Hello! I am a PhD student in Computer Science at North Carolina State University, working with [Dr. Tiffany Barnes](https://eliza.csc.ncsu.edu) and [Dr. DK Xu](https://dongkuanx27.github.io/).
 
-Here are my current research projects:
+My research connects artificial intelligence and computing education, with a focus on **human-AI co-intelligence**, studying how students, developers, and educators collaborate with AI systems, and how to design those systems to be trustworthy, adaptive, and pedagogically grounded. My work also draws on educational data mining to identify novice programmers' struggles and build learning supports, and extends into health communication, where responsible AI design is especially critical.
 
-- **[MerryQuery](https://exploremq.benyamintabarsi.com/):** A GenAI-powered assistant that provides personalized, reliable guidance to students and educators by adapting to course materials and the preferences of students and instructors.
-- **SafeTalkCoach:** Developing a framework for using GenAI to produce parent-teen conversations and expert feedback to be used for parental training in sexual health communication.
-- **[LLMs in Classrooms](https://go.ncsu.edu/chatgpt-workshop):** Training K-12 educators on integrating generative AI tools into their teaching practice.
-- **Developers and LLMs:** Investigating how developers use LLMs in their workflow and the implications for software development practices.
+Here are my current projects:
 
-I also focus on enhancing the learning experience of novice programmers by analyzing coding patterns, identifying struggles, and developing intelligent support tools through educational data mining.
+- **[MerryQuery](https://exploremq.benyamintabarsi.com/):** A GenAI-powered assistant that adapts to course materials and instructor preferences to give students and educators reliable guidance.
+- **SafeTalkCoach:** Developing a framework for using GenAI to generate and evaluate parent-teen health conversations, useful for parental training.
+- **[LLMs in Classrooms](https://go.ncsu.edu/chatgpt-workshop):** Training K-12 educators on integrating generative AI into their classrooms.
+- **Developers and LLMs:** Investigating how developers use LLMs in their workflow and what that means for software development.
 
 I am always eager to collaborate with other researchers to develop tools that make learning easier and more effective. If you're interested in educational technology or AI, feel free to reach out!
