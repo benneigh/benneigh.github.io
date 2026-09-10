@@ -1,0 +1,39 @@
+{% comment %}
+  Renders a responsive grid of mentee cards.
+  Usage: {% include mentee_cards.liquid mentees=site.data.mentees.undergraduates %}
+{% endcomment %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5">
+  {% for student in include.mentees %}
+    <div class="col mb-4">
+      <div class="card mentee-card h-100 text-center">
+        <div class="mentee-avatar">
+          {% if student.img %}
+            <img src="{{ student.img }}" alt="{{ student.name }}" loading="lazy">
+          {% else %}
+            <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+            <span class="sr-only">No photo available</span>
+          {% endif %}
+        </div>
+        <div class="card-body px-3 py-3 d-flex flex-column">
+          <h5 class="mentee-name mb-1">
+            {% if student.link %}
+              <a href="{{ student.link }}" target="_blank" rel="noopener noreferrer">{{ student.name }}</a>
+            {% else %}
+              {{ student.name }}
+            {% endif %}
+          </h5>
+          <div class="mentee-project mb-1">
+            {% for project in student.projects -%}
+              {{- project -}}
+              {%- unless forloop.last %} · {% endunless -%}
+            {%- endfor %}
+          </div>
+          <div class="mentee-institution text-muted mb-2">{{ student.institution }}</div>
+          <div class="mt-auto">
+            <span class="mentee-term-badge"> <i class="fa-regular fa-calendar mr-1" aria-hidden="true"></i>{{ student.term }} </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

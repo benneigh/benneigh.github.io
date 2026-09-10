@@ -1,27 +1,56 @@
+# Research mentees, grouped by role and listed in reverse-chronological order.
+# One entry per person: repeat appearances are merged into a single card.
+
 undergraduates:
+  - name: "Faaz Mohamed"
+    institution: "University of Pittsburgh, PA, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Matheus Marques"
+    institution: "The College of New Jersey, NJ, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Lokesh Sharma"
+    institution: "University of California, Irvine, CA, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Nicole Ackerman-Lowery"
+    institution: "Fayetteville Technical Community College, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Susanna Quayle"
+    institution: "Fayetteville Technical Community College → North Carolina State University, NC, USA"
+    term: "Summer 2024 – Summer 2026"
+    img: "../assets/img/mentoring/susanna.jpg"
+    projects:
+      - "SafeTalk"
+      - "HelpLens"
+      - "MerryQuery"
   - name: "Daniel Briceno"
     institution: "North Carolina State University, NC, USA"
-    term: "Spring 2026"
+    term: "Spring 2026 and Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Aditya Basarkar"
+    institution: "North Carolina State University, NC, USA"
+    term: "Summer 2024 and Summer 2026"
     projects:
       - "MerryQuery"
   - name: "Jayani Sivakumar"
     institution: "North Carolina State University, NC, USA"
     term: "Summer 2025"
     projects:
-      - "MerryBench"
-  - name: "Susanna Quayle"
-    institution: "Fayetteville Technical Community College, NC, USA"
-    term: "Summer 2024 – Summer 2025"
-    img: "../assets/img/mentoring/susanna.jpg"
-    projects:
-      - "SafeTalkCoach"
-      - "MerryBench"
+      - "HelpLens"
   - name: "Ary Kumar (Aryan Santhosh Kumar)"
     institution: "North Carolina State University, NC, USA"
     term: "Fall 2024 and Spring 2025"
     img: "../assets/img/mentoring/ary.png"
     projects:
-      - "SafeTalkCoach"
+      - "SafeTalk"
   - name: "Aishwarya Radhakrishnan"
     institution: "North Carolina State University, NC, USA"
     term: "Summer 2024 and Fall 2024"
@@ -34,11 +63,18 @@ undergraduates:
     img: "../assets/img/mentoring/praneel.jpg"
     projects:
       - "MerryQuery"
-  - name: "Aditya Basarkar"
-    institution: "North Carolina State University, NC, USA"
+  - name: "Michelle Jiang"
+    institution: "UNC Chapel Hill, NC, USA"
     term: "Summer 2024"
+    img: "../assets/img/mentoring/michelle.jpg"
     projects:
-      - "MerryQuery"
+      - "SafeTalk"
+  - name: "Jonathan Hardwick"
+    institution: "Fayetteville Technical Community College, NC, USA"
+    term: "Summer 2024"
+    img: "../assets/img/mentoring/jonathan.JPG"
+    projects:
+      - "SafeTalk"
   - name: "Lavan Aditya"
     institution: "North Carolina State University, NC, USA"
     term: "Spring 2024 and Summer 2024"
@@ -46,18 +82,6 @@ undergraduates:
     projects:
       - "Systematic Literature Review on LLMs and Computing Education"
       - "MerryQuery"
-  - name: "Michelle Jiang"
-    institution: "UNC Chapel Hill, NC, USA"
-    term: "Summer 2024"
-    img: "../assets/img/mentoring/michelle.jpg"
-    projects:
-      - "SafeTalkCoach"
-  - name: "Jonathan Hardwick"
-    institution: "Fayetteville Technical Community College, NC, USA"
-    term: "Summer 2024"
-    img: "../assets/img/mentoring/jonathan.JPG"
-    projects:
-      - "SafeTalkCoach"
   - name: "Shiva Gadireddy"
     link: "https://www.linkedin.com/in/shiva-gadireddy"
     institution: "North Carolina State University, NC, USA"
@@ -115,7 +139,52 @@ masters:
       - "MerryQuery"
 
 teachers:
-  - name: "Cherri Fennel"
+  - name: "Algie Brodnax"
+    institution: "GTCC Middle College, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Latoya Clay"
+    institution: "Hillside High School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Lohanna Sanchez"
+    institution: "Ragsdale High School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Madeline Cutchin"
+    institution: "Nash Central Middle School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Marcia Winborne"
+    institution: "JF Webb High School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Marie Antonette Jimenez"
+    institution: "Discovery Charter School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Mason McDaniel"
+    institution: "Broughton High School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Tiffany McMillan"
+    institution: "Jack Britt High School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Tina Fox"
+    institution: "Apex Friendship High School, NC, USA"
+    term: "Summer 2026"
+    projects:
+      - "MerryQuery"
+  - name: "Cheri Fennell"
     institution: "Durham Public Schools, NC, USA"
     term: "Summer 2023"
     projects:

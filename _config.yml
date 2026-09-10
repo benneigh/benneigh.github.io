@@ -7,11 +7,11 @@ first_name: Benyamin
 middle_name:
 last_name: Tabarsi
 email: btaghiz@ncsu.edu
-description: PhD Student in Computer Science at NC State University # the ">" symbol means to ignore newlines until "footer_text:"
+description: PhD candidate in Computer Science at NC State University researching human-AI co-intelligence in computing education. # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic-website, benyamin, tabarsi, benyamin-tabarsi, NCSU, computer-science, phd # add your own keywords or leave empty
+keywords: academic-website, benyamin, tabarsi, benyamin-tabarsi, NCSU, computer-science, phd, computing-education, generative-ai, human-centered-ai, LLM, MerryQuery # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -80,7 +80,7 @@ github_username: benneigh # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
-instagram_id: benyamin.tabarsi # your instagram id
+instagram_id: benyamintabarsi # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
@@ -190,8 +190,9 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-    permalink: /:collection/:title/
+    # All announcements are `inline: true` and render in the news table on `/`
+    # and `/news/`. Emitting standalone pages would create unlinked stubs.
+    output: false
 
 announcements:
   enabled: true
@@ -234,13 +235,10 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
 keep_files:
   - CNAME

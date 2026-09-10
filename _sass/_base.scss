@@ -193,6 +193,15 @@ ul.task-list input[type="checkbox"] {
   margin-bottom: 2rem;
 }
 
+.mentoring-intro {
+  max-width: 46rem;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 .mentoring h2 {
   margin-bottom: 1.5rem;
 }
@@ -799,7 +808,14 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          color: white;
           margin-bottom: 0.5rem;
+          font-size: 0.7rem;
+          font-weight: 600;
+          letter-spacing: 0.02em;
+          white-space: normal;
+          word-break: break-word;
+          text-decoration: none;
 
           a {
             color: white;
@@ -1402,4 +1418,41 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+// Service & Awards page tables
+
+.post table {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+
+  th,
+  td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    vertical-align: top;
+  }
+
+  th {
+    text-align: left;
+    color: var(--global-text-color-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    border-bottom: 2px solid var(--global-divider-color);
+  }
+
+  td:last-child,
+  th:last-child {
+    text-align: right;
+    white-space: nowrap;
+    color: var(--global-text-color-light);
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
 }
