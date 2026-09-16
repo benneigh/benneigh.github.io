@@ -9,30 +9,20 @@ description: "Research mentoring of undergraduate, master's, and K-12 teacher in
 
 {% assign m = site.data.mentees %}
 {% assign total_mentees = m.undergraduates.size | plus: m.masters.size | plus: m.teachers.size %}
-{% assign all_projects = "" %}
-{% for group in m %}
-{% for s in group[1] %}
-{% for p in s.projects %}
-{% assign all_projects = all_projects | append: p | append: "||" %}
-{% endfor %}
-{% endfor %}
-{% endfor %}
-{% assign projects_arr = all_projects | split: "||" | uniq %}
-{% assign total_projects = projects_arr.size %}
 
 <div class="mentoring">
 
 <p class="mentoring-stats">
-  {{ total_mentees }} research mentees &middot; {{ total_projects }} projects &middot; 9 institutions across 5 states
+  {{ total_mentees }} mentees from 9 institutions
 </p>
 
 <p class="mentoring-intro">
-  Mentoring is the part of research I enjoy most. I work with undergraduates, master's students, and K-12
-  teachers on real, publishable projects, and I try to give every mentee ownership of a question they care
+  Mentoring is one of my favorite parts of research. I work with undergraduates, master's students, and K-12
+  teachers and I try to give every mentee ownership of a question they care
   about. Fourteen of my mentees have co-authored published or submitted work. One community-college mentee
-  transferred to NC State and stayed on the project, and another is starting a Ph.D. Many of the Summer 2026
-  mentees below came through <strong>ExLAIM</strong>, an ExLENT-funded program I lead that pairs student
-  developers with K-12 teachers to co-design classroom AI tools.
+  transferred to NC State and stayed on the project, and another is starting a Ph.D. In Summer 2026, seven undergraduate
+  developers (two team leads and five developers) and nine K-12 teachers took part in ExLAIM, an ExLENT-funded program I
+  lead, co-designing classroom tools for MerryQuery.
 </p>
 
 <figure class="text-center mb-5" style="max-width: 600px; margin: 0 auto;">

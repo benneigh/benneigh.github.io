@@ -31,6 +31,11 @@
           <div class="mentee-institution text-muted mb-2">{{ student.institution }}</div>
           <div class="mt-auto">
             <span class="mentee-term-badge"> <i class="fa-regular fa-calendar mr-1" aria-hidden="true"></i>{{ student.term }} </span>
+            {% if student.program %}
+              <span class="mentee-term-badge mentee-program-badge">
+                <i class="fa-solid fa-handshake mr-1" aria-hidden="true"></i>{{ student.program }}
+              </span>
+            {% endif %}
           </div>
         </div>
       </div>

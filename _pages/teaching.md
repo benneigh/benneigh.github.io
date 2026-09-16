@@ -2,16 +2,11 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: "Teaching experience, fellowships, and courses taught by Benyamin Tabarsi at NC State University."
 nav: true
 nav_order: 3
 ---
 
-## Teaching Fellowships
-
-- **[Preparing the Professoriate (PTP) Fellow](https://grad.ncsu.edu/professional-development/teaching-programs/ptp/)**,
-  NC State University, 2025 – 2026 <br/>
-  Competitive one-year program of pedagogy seminars, faculty mentorship, and a mentored co-teaching experience, working with Dr. Lina Battestilli on CSC 113 (Introduction to Programming in MATLAB).
+## Teaching Fellowship
 
 - **Mentored Teaching Fellow**,
   NC State University, Spring 2026 <br/>
@@ -24,8 +19,9 @@ nav_order: 3
   Delivered three lectures and supported 22 students through grading and office hours.
 
 - **Introduction to Programming (CSC 113)** — Teaching Fellow,
-  NC State University, Jan – May 2026 <br/>
-  Delivered lectures, co-led weekly TA meetings, and designed active-learning activities and responsible GenAI-use guidance for a 250+ student MATLAB course.
+  NC State University, Aug 2025 – May 2026 <br/>
+  _Fall 2025:_ Audited the course as part of [Preparing the Professoriate (PTP)](https://grad.ncsu.edu/professional-development/teaching-programs/ptp/). <br/>
+  _Spring 2026:_ Teaching Fellow under the Mentored Teaching Fellowship and PTP. Delivered lectures, co-led weekly TA meetings, and designed active-learning activities and responsible GenAI-use guidance for a 250+ student MATLAB course.
 
 - **How to Integrate LLMs into K-12 Classrooms** — Instructor and Mentor,
   NC State University, Jun 2023 – Jun 2024 <br/>

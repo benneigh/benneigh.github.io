@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Kicked off ExLAIM this summer, an ExLENT-funded program I lead that pairs student developers with K–12 teachers to co-design classroom AI tools, this year with 5 undergraduate researchers and 9 teachers! 🤝
+Kicked off ExLAIM this summer, an ExLENT-funded program I lead that pairs student developers with K–12 teachers to co-design classroom AI tools, this year with 7 undergraduate developers (2 team leads and 5 developers) and 9 teachers! 🤝
