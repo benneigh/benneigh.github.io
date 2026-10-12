@@ -29,14 +29,6 @@
   p {
     line-height: 1.7;
   }
-  .academic-eyebrow {
-    color: var(--academic-accent);
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    margin-bottom: 0.6rem;
-  }
   .academic-actions {
     display: flex;
     align-items: center;
@@ -111,17 +103,6 @@
         font-size: 0.85em;
       }
     }
-  }
-  .academic-heading-links {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 0.25rem 1rem;
-  }
-  .academic-two-column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
   }
   figure {
     margin: 0;
@@ -435,15 +416,6 @@
     h2 {
       margin-bottom: 0.65rem;
     }
-    .mentoring-group-photo {
-      max-width: 520px;
-      margin: 1rem 0 1.25rem;
-      figcaption {
-        font-size: 0.78rem;
-        line-height: 1.5;
-        margin-top: 0.45rem;
-      }
-    }
     .mentoring-divider {
       width: 100%;
       height: 1px;
@@ -538,62 +510,6 @@
   font-size: 1.75rem;
   a {
     margin: 0 0.45rem;
-  }
-}
-// Compact rows rendered by _layouts/bib_compact.liquid.
-.selected-pubs {
-  ol.bibliography {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    padding: 0.8rem 0;
-    border-top: 1px solid var(--academic-border);
-  }
-  li:last-child {
-    border-bottom: 1px solid var(--academic-border);
-  }
-  .pub-compact {
-    display: grid;
-    grid-template-columns: var(--academic-label-col) minmax(0, 1fr);
-    gap: 1.1rem;
-    align-items: start;
-  }
-  .pub-compact-venue {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.2rem;
-    color: var(--academic-accent);
-    font-size: 0.72rem;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-  .pub-compact-year {
-    color: var(--academic-muted);
-    font-weight: 500;
-    letter-spacing: 0;
-  }
-  .pub-compact-line {
-    margin: 0;
-    font-size: 0.95rem;
-    line-height: 1.5;
-  }
-  .pub-compact-title {
-    color: var(--global-text-color);
-    font-weight: 500;
-    &:hover {
-      color: var(--academic-accent);
-    }
-  }
-  .pub-compact-award {
-    display: block;
-    margin-top: 0.15rem;
-    color: var(--academic-accent);
-    font-size: 0.82rem;
-    font-weight: 500;
   }
 }
 .research-page {
@@ -727,10 +643,6 @@
   }
 }
 .teaching-approach {
-  .teaching-lead {
-    font-size: 1rem;
-    margin-bottom: 1.25rem;
-  }
   h2 {
     font-family: "Roboto", sans-serif;
     font-size: 1.55rem;
@@ -926,14 +838,7 @@ html[data-theme="dark"] {
       max-width: 100%;
     }
   }
-  .academic-home .academic-two-column {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
   .teaching-approach {
-    h2 {
-      font-size: 1.75rem;
-    }
     .teaching-entry {
       grid-template-columns: 1fr;
       gap: 0.3rem;
