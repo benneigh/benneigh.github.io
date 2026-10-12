@@ -21,7 +21,7 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="container mt-5{% if page.academic_home or page.scholarly_page %} scholarly-content{% endif %}" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
@@ -63,7 +63,9 @@
     {% include scripts/tikzjax.liquid %}
     {% include scripts/typograms.liquid %}
     {% include scripts/misc.liquid %}
-    {% include scripts/badges.liquid %}
+    {% unless page.academic_home %}
+      {% include scripts/badges.liquid %}
+    {% endunless %}
     {% include scripts/mathjax.liquid %}
     {% include scripts/pseudocode.liquid %}
     {% include scripts/analytics.liquid %}

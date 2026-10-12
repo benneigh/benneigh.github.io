@@ -1,21 +1,23 @@
 ---
 layout: page
+scholarly_page: true
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 6
-description: "Curriculum vitae (CV) of Benyamin Tabarsi, PhD candidate in Computer Science at NC State University."
 cv_pdf: Benyamin Tabarsi - CV.pdf
 ---
 
-<p>
-  Last updated September 2026. If the embedded PDF below does not load, you can
-  <a href="{{ '/assets/pdf/Benyamin Tabarsi - CV.pdf' | relative_url }}">download it here</a>.
-</p>
+{% assign cv_url = '/assets/pdf/' | append: page.cv_pdf | relative_url %}
 
-<embed
-  src="{{ '/assets/pdf/Benyamin Tabarsi - CV.pdf' | relative_url }}"
-  type="application/pdf"
-  style="width:100%; height:1000px; margin-left:auto; margin-right:auto;"
-  frameborder="0"
-/>
+<div class="cv-page">
+  <div class="cv-pdf-actions">
+    <a class="cv-pdf-download" href="{{ cv_url }}">Download CV (PDF) <span aria-hidden="true">↓</span></a>
+    <span class="cv-pdf-updated">Last updated October 2026</span>
+  </div>
+
+  <div class="cv-pdf-frame">
+    <embed src="{{ cv_url }}" type="application/pdf" title="Benyamin Tabarsi CV">
+  </div>
+  <p class="cv-pdf-fallback">If the PDF does not display here, <a href="{{ cv_url }}">open it directly</a>.</p>
+</div>

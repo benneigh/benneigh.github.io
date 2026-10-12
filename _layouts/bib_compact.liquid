@@ -1,0 +1,25 @@
+---
+---
+{%- comment -%} One-row entry for the homepage's selected publications; the full entry lives in bib.liquid. {%- endcomment -%}
+{%- assign pub_url = null -%}
+{%- if entry.html -%}
+  {%- assign pub_url = entry.html -%}
+{%- elsif entry.doi -%}
+  {%- assign pub_url = entry.doi | prepend: 'https://doi.org/' -%}
+{%- endif -%}
+<div class="pub-compact">
+  <span class="pub-compact-venue">
+    {{- entry.abbr -}}
+    <span class="pub-compact-year">{{ entry.year }}</span></span
+  >
+  <p class="pub-compact-line">
+    {% if pub_url %}
+      <a class="pub-compact-title" href="{{ pub_url }}">{{ entry.title }}</a>
+    {%- else -%}
+      <span class="pub-compact-title">{{ entry.title }}</span>
+    {%- endif -%}
+    {%- if entry.award %}
+      <span class="pub-compact-award">{{ entry.award | split: ' at ' | first }}</span>
+    {%- endif %}
+  </p>
+</div>
