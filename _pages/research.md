@@ -8,21 +8,21 @@ nav_order: 1
 ---
 
 <div class="research-page">
-  <nav class="research-cards" aria-label="Research directions">
-    <a class="research-card" href="#designing-ai-for-learning">
-      <span class="research-card-number" aria-hidden="true">01</span>
-      <span class="research-card-title">Designing the GenAI Help Learners Receive</span>
-      <span class="research-card-question">Which choices in AI assistance help students develop understanding and judgment?</span>
+  <nav class="section-cards" aria-label="Research directions">
+    <a class="section-card" href="#designing-ai-for-learning">
+      <span class="section-card-number" aria-hidden="true">01</span>
+      <span class="section-card-title">Designing the GenAI Help Learners Receive</span>
+      <span class="section-card-text">Which choices in AI assistance help students develop understanding and judgment?</span>
     </a>
-    <a class="research-card" href="#human-ai-collaboration">
-      <span class="research-card-number" aria-hidden="true">02</span>
-      <span class="research-card-title">GenAI in the Hands of Students, Developers, and Teachers</span>
-      <span class="research-card-question">How do people use, judge, and shape AI in the settings where they learn and work?</span>
+    <a class="section-card" href="#human-ai-collaboration">
+      <span class="section-card-number" aria-hidden="true">02</span>
+      <span class="section-card-title">GenAI in the Hands of Students, Developers, and Teachers</span>
+      <span class="section-card-text">How do people use, judge, and shape AI in the settings where they learn and work?</span>
     </a>
-    <a class="research-card" href="#novice-programmers">
-      <span class="research-card-number" aria-hidden="true">03</span>
-      <span class="research-card-title">Novice Struggle and Scaffolding</span>
-      <span class="research-card-question">Where do learners struggle, and which scaffolds help them reason, plan, and make progress?</span>
+    <a class="section-card" href="#novice-programmers">
+      <span class="section-card-number" aria-hidden="true">03</span>
+      <span class="section-card-title">Novice Struggle and Scaffolding</span>
+      <span class="section-card-text">Where do learners struggle, and which scaffolds help them reason, plan, and make progress?</span>
     </a>
   </nav>
 

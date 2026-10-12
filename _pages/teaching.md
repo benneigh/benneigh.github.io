@@ -8,6 +8,24 @@ nav_order: 3
 ---
 
 <div class="teaching-approach">
+  <nav class="section-cards" aria-label="Teaching sections">
+    <a class="section-card" href="#teaching-experience-heading">
+      <span class="section-card-number" aria-hidden="true">01</span>
+      <span class="section-card-title">University courses</span>
+      <span class="section-card-text">Courses I have co-taught, taught, and assisted at NC State, from introductory programming to machine learning.</span>
+    </a>
+    <a class="section-card" href="#teaching-outreach-heading">
+      <span class="section-card-number" aria-hidden="true">02</span>
+      <span class="section-card-title">K–12 teachers &amp; outreach</span>
+      <span class="section-card-text">Programs for K–12 teachers and high school students, from co-designing classroom AI tools to a programming camp.</span>
+    </a>
+    <a class="section-card" href="#teaching-approach-heading">
+      <span class="section-card-number" aria-hidden="true">03</span>
+      <span class="section-card-title">Teaching approach</span>
+      <span class="section-card-text">Evaluation-first learning, collaborative reasoning, and modeling, scaffolding, and articulation.</span>
+    </a>
+  </nav>
+
   <section class="teaching-section" aria-labelledby="teaching-experience-heading">
     <h2 id="teaching-experience-heading">University courses</h2>
     <p class="teaching-affiliation">NC State University</p>
