@@ -68,9 +68,9 @@ social: false
         <h3 id="collaboration-story-title"><a href="{{ '/research/#human-ai-collaboration' | relative_url }}">GenAI in the Hands of Students, Developers, and Teachers</a></h3>
         <p>Through <strong>ExLAIM</strong>, I lead K–12 teachers and undergraduate developers in co-designing classroom AI tools. I also interviewed industry developers about how they evaluate and integrate AI-generated code.</p>
         <ul class="research-entry-papers" aria-label="Papers on human–AI collaboration">
-          <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">ExLAIM: teachers and developers building together</a> <span class="paper-venue">Submitted to CHI</span></li>
+          <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">ExLAIM: teachers and developers building together</a> <span class="paper-venue">Under review</span></li>
           <li><a href="{{ '/publications/#tabarsi2026llms' | relative_url }}">LLMs in software development</a> <span class="paper-venue">EMSE 2027</span></li>
-          <li><a href="{{ '/publications/#tabarsi2026studentfacing' | relative_url }}">Student-facing LLM tools: a systematic review</a> <span class="paper-venue">Submitted to Computers and Education: AI</span></li>
+          <li><a href="{{ '/publications/#tabarsi2026studentfacing' | relative_url }}">Student-facing LLM tools: a systematic review</a> <span class="paper-venue">Under review</span></li>
         </ul>
       </div>
     </article>

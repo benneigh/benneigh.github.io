@@ -77,7 +77,7 @@ nav_order: 1
       <ul>
         <li><a href="{{ '/publications/#tabarsi2026llms' | relative_url }}">LLMs' Reshaping of People, Processes, Products, and Society in Software Development</a><span class="work-venue">Empirical Software Engineering · Equal contribution</span><p>A qualitative study of where developers use AI and where human expertise remains essential.</p></li>
         <li><a href="{{ '/publications/#tabarsi2026studentfacing' | relative_url }}">Student-Facing LLM Tools in Computing Education</a><span class="work-venue">Under review · Preprint available</span><p>A systematic review of roles, designs, evaluations, and reported impacts across 52 studies.</p></li>
-        <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">Teachers and Developers Building Together: The ExLAIM Six-Week Co-Design Program</a><span class="work-venue">Submitted to CHI</span><p>I led the program and study of how teacher and developer perspectives become classroom tools.</p></li>
+        <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">Teachers and Developers Building Together: The ExLAIM Six-Week Co-Design Program</a><span class="work-venue">Under review</span><p>I led the program and study of how teacher and developer perspectives become classroom tools.</p></li>
         <li><a href="{{ '/publications/#reichert2026humancentered' | relative_url }}">Human-Centered Design of LLM-Powered Educational Chatbots</a><span class="work-venue">AI-HCI 2026</span><p>Research with secondary teachers on the design of classroom chatbots.</p></li>
       </ul>
     </div>

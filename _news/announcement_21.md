@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our systematic literature review on student-facing LLM tools in computing education is [available as a preprint]({{ '/assets/pdf/Student-Facing LLM Tools in Computing Education.pdf' | relative_url }}) and under review at _Computers and Education: Artificial Intelligence_! 📄
+Our systematic literature review on student-facing LLM tools in computing education is [available as a preprint]({{ '/assets/pdf/Student-Facing LLM Tools in Computing Education.pdf' | relative_url }}) and under review! 📄
