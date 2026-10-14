@@ -29,6 +29,7 @@ social: false
           <a href="https://github.com/{{ site.github_username }}" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
         </div>
+        <a class="academic-button academic-button-feature" href="https://exploremq.benyamintabarsi.com/">Explore MerryQuery <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </section>

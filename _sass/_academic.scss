@@ -265,6 +265,19 @@
         filter: none;
       }
     }
+    // The project site is the one filled button, set after the profile links.
+    .academic-button-feature {
+      padding: 0.4rem 0.85rem;
+      border-radius: 5px;
+      background: var(--academic-accent);
+      color: #fff;
+      &:hover,
+      &:focus-visible {
+        color: #fff;
+        text-decoration: none;
+        filter: brightness(0.92);
+      }
+    }
   }
   .research-entry {
     display: grid;
@@ -774,6 +787,9 @@ html[data-theme="dark"] {
   }
   .scholarly-home .academic-actions .academic-button {
     color: var(--academic-accent);
+  }
+  .scholarly-home .academic-actions .academic-button-feature {
+    color: #132322;
   }
   .scholarly-home .home-thumb {
     filter: brightness(0.88);
