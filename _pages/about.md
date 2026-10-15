@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Human-Centered AI Researcher
-description: Ph.D. candidate in Computer Science at NC State on the 2026–27 faculty job market, researching human–AI co-intelligence in computing education.
+description: Ph.D. candidate in Computer Science at NC State, researching human–AI co-intelligence.
 academic_home: true
 news: true
 selected_papers: false
