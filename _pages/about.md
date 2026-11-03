@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: Human-Centered AI Researcher
 description: Ph.D. candidate in Computer Science at NC State, researching human–AI co-intelligence.
 academic_home: true
 news: true
@@ -18,8 +17,8 @@ social: false
     <div class="academic-intro-text">
       <p class="academic-bio">I am a Ph.D. candidate in Computer Science at NC State University, advised by Tiffany Barnes and Dongkuan (DK) Xu. I expect to graduate in May 2027 and am <strong>on the <span class="text-nowrap">2026–27</span> faculty job market</strong>.</p>
       <p class="academic-bio">More help isn’t always better, but less help isn’t always the answer either. I’ve seen both in my studies: AI responses that give students too much of a solution, and programming scaffolds that help beginners do better. My research seeks to understand when and why support helps students learn, and how to design educational tools accordingly.</p>
-      <p class="academic-bio">I develop AI-powered tools for computing education and evaluate them in real classrooms. I also study how students, educators, and software developers use and shape AI, as well as the challenges novice programmers face and the scaffolding that supports their learning. My work draws on human–computer interaction, computing education, and AI. I combine system building, mixed-methods research, educational data mining, and participatory design.</p>
-      <p class="academic-bio">My long-term goal is to advance human–AI co-intelligence, in which people guide what AI contributes while AI helps them accomplish more and build their own knowledge and skills.</p>
+      <p class="academic-bio">I develop AI-powered tools for computing education and evaluate them in real classrooms. I also study how students, educators, and software developers use and shape AI, as well as the challenges novice programmers face and the scaffolding that supports their learning. My work draws on <strong>human-centered AI, computing education, and human–computer interaction</strong>. I combine system building, mixed-methods research, educational data mining, and participatory design.</p>
+      <p class="academic-bio">My long-term goal is to advance <strong>human–AI co-intelligence</strong>, in which people guide what AI contributes while AI helps them accomplish more and build their own knowledge and skills.</p>
       <div class="academic-actions" role="group" aria-label="Contact and academic profiles">
         <a class="academic-button academic-email" href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a>
         <a class="academic-button" href="{{ '/assets/pdf/Benyamin Tabarsi - CV.pdf' | relative_url }}">CV (PDF)</a>
@@ -52,7 +51,7 @@ social: false
         <p>I designed and deployed <strong>MerryQuery</strong>, used by 750+ students across three semesters, to study AI assistance in computing classrooms. <strong>HelpLens</strong> compares the instructional choices in teaching-staff and LLM responses to authentic programming questions.</p>
         <ul class="research-entry-papers" aria-label="Papers on AI for learning">
           <li><a href="{{ '/publications/#tabarsi2025merryquery' | relative_url }}">MerryQuery</a> <span class="paper-venue">AAAI 2025 · <span aria-hidden="true">🏆</span> Best Demo</span></li>
-          <li><a href="{{ '/publications/#tabarsi2026helplens' | relative_url }}">HelpLens: teaching-staff and LLM responses</a> <span class="paper-venue">In preparation</span></li>
+          <li><a href="{{ '/publications/#tabarsi2026helplens' | relative_url }}">HelpLens: teaching-staff and LLM responses</a> <span class="paper-venue">To be submitted</span></li>
         </ul>
       </div>
     </article>
@@ -69,7 +68,7 @@ social: false
         <h3 id="collaboration-story-title"><a href="{{ '/research/#human-ai-collaboration' | relative_url }}">GenAI in the Hands of Students, Developers, and Teachers</a></h3>
         <p>Through <strong>ExLAIM</strong>, I lead K–12 teachers and undergraduate developers in co-designing classroom AI tools. I also interviewed industry developers about how they evaluate and integrate AI-generated code.</p>
         <ul class="research-entry-papers" aria-label="Papers on human–AI collaboration">
-          <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">ExLAIM: teachers and developers building together</a> <span class="paper-venue">Under review</span></li>
+          <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">ExLAIM: teachers and developers building together</a> <span class="paper-venue">To be submitted · <a href="https://exploremq.benyamintabarsi.com/papers/Tabarsi_ExLAIM_Preprint.pdf">Preprint</a></span></li>
           <li><a href="{{ '/publications/#tabarsi2026llms' | relative_url }}">LLMs in software development</a> <span class="paper-venue">EMSE 2027</span></li>
           <li><a href="{{ '/publications/#tabarsi2026studentfacing' | relative_url }}">Student-facing LLM tools: a systematic review</a> <span class="paper-venue">Under review</span></li>
         </ul>
@@ -101,7 +100,7 @@ social: false
     <div class="academic-section-heading">
       <h2 class="academic-section-title" id="teaching-mentoring-heading"><a href="{{ '/teaching/' | relative_url }}">Teaching</a> &amp; <a href="{{ '/mentoring/' | relative_url }}">Mentoring</a></h2>
     </div>
-    <p>As a Preparing the Professoriate Fellow, I co-taught a 250+ student introductory programming course, and I have been a teaching assistant across the computing curriculum, from discrete mathematics to machine learning. I also lead ExLAIM, an NSF-funded project whose six-week program brought K–12 teachers and undergraduate developers together to co-design classroom AI tools. For K–12 teachers, I co-led three iterations of a one-week professional development program on classroom AI use. In my teaching, I prioritize collaborative work and use worked examples to walk through problems with learners.</p>
-    <p>In mentoring, I break research into manageable steps, guiding mentees from developing questions and ideas to conducting studies, writing papers, and presenting their work. I have mentored 20 undergraduate researchers from nine institutions, 3 master’s students, and 11 K–12 teachers; 14 have co-authored published or submitted work, and two have begun Ph.D. programs.</p>
+    <p>As a Preparing the Professoriate Fellow, I co-taught a 250+ student introductory programming course, and I have been a teaching assistant across the computing curriculum, from discrete mathematics to machine learning. I also lead ExLAIM, a <a href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2526340">$1M NSF-funded project</a> whose six-week program brought K–12 teachers and undergraduate developers together to co-design classroom AI tools. For K–12 teachers, I co-led three iterations of a one-week professional development program on classroom AI use. In my teaching, I prioritize <strong>evaluation-first learning, collaborative reasoning, and scaffolding</strong>, helping students build evaluative judgment and problem-solving skills.</p>
+    <p>In mentoring, I break research into manageable steps, guiding mentees from developing questions and ideas to conducting studies, writing papers, and presenting their work. I have mentored <strong>20 undergraduate researchers</strong> from nine institutions, <strong>3 master’s students</strong>, and <strong>11 K–12 teachers</strong>; 14 have co-authored published or submitted work, and two have begun Ph.D. programs.</p>
   </section>
 </div>

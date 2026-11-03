@@ -13,7 +13,7 @@ cv_pdf: Benyamin Tabarsi - CV.pdf
 <div class="cv-page">
   <div class="cv-pdf-actions">
     <a class="cv-pdf-download" href="{{ cv_url }}">Download CV (PDF) <span aria-hidden="true">↓</span></a>
-    <span class="cv-pdf-updated">Last updated October 2026</span>
+    <span class="cv-pdf-updated">Last updated November 2026</span>
   </div>
 
   <div class="cv-pdf-frame">

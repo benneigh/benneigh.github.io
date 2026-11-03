@@ -49,7 +49,7 @@ nav_order: 1
       <ul>
         <li><a href="{{ '/publications/#tabarsi2025merryquery' | relative_url }}">MerryQuery: A Trustworthy LLM-Powered Tool Providing Personalized Support for Educators and Students</a><span class="work-venue">AAAI 2025 · Best Demo</span><p>I led the design and evaluation of the classroom assistant.</p></li>
         <li><a href="{{ '/publications/#tabarsi2026merryquery' | relative_url }}">MerryQuery in the Loop: How Students Use and Perceive a GenAI-Powered Assistant</a><span class="work-venue">SIGCSE 2026 · SRC poster</span><p>A semester-long study of students' use and perceptions of GenAI support.</p></li>
-        <li><a href="{{ '/publications/#tabarsi2026helplens' | relative_url }}">Characterizing Teaching Staff and LLM Responses to Forum Queries in Introductory Programming</a><span class="work-venue">In preparation</span><p>HelpLens: a pedagogical framework and annotated dataset for analyzing instructional choices.</p></li>
+        <li><a href="{{ '/publications/#tabarsi2026helplens' | relative_url }}">Characterizing Teaching Staff and LLM Responses to Forum Queries in Introductory Programming</a><span class="work-venue">To be submitted</span><p>HelpLens: a pedagogical framework and annotated dataset for analyzing instructional choices.</p></li>
       </ul>
     </div>
     <div class="research-future"><h3>Where this work is going</h3><p>I will compare evaluation-first, production-first, and balanced learning activities, using MerryQuery and HelpLens to study how assistance affects students' independent debugging, explanation, and verification skills after a delay.</p></div>
@@ -77,7 +77,7 @@ nav_order: 1
       <ul>
         <li><a href="{{ '/publications/#tabarsi2026llms' | relative_url }}">LLMs' Reshaping of People, Processes, Products, and Society in Software Development</a><span class="work-venue">Empirical Software Engineering · Equal contribution</span><p>A qualitative study of where developers use AI and where human expertise remains essential.</p></li>
         <li><a href="{{ '/publications/#tabarsi2026studentfacing' | relative_url }}">Student-Facing LLM Tools in Computing Education</a><span class="work-venue">Under review · Preprint available</span><p>A systematic review of roles, designs, evaluations, and reported impacts across 52 studies.</p></li>
-        <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">Teachers and Developers Building Together: The ExLAIM Six-Week Co-Design Program</a><span class="work-venue">Under review</span><p>I led the program and study of how teacher and developer perspectives become classroom tools.</p></li>
+        <li><a href="{{ '/publications/#tabarsi2026codesigning' | relative_url }}">Teachers and Developers Building Together: The ExLAIM Six-Week Co-Design Program</a><span class="work-venue">To be submitted · Preprint available</span><p>I led the program and study of how teacher and developer perspectives become classroom tools.</p></li>
         <li><a href="{{ '/publications/#reichert2026humancentered' | relative_url }}">Human-Centered Design of LLM-Powered Educational Chatbots</a><span class="work-venue">AI-HCI 2026</span><p>Research with secondary teachers on the design of classroom chatbots.</p></li>
       </ul>
     </div>
